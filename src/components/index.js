@@ -1,0 +1,10 @@
+export { default as Login } from "./auth/Login";
+export { default as Singup } from "./auth/Singup";
+export { default as Home } from "./home/Home";
+export { default as Profile } from "./profile/Profile"
+export { default as EditProfile } from "./edit-profile/EditProfile";
+export { default as PrivacyPolicy } from "./policy/PrivacyPolicy";
+export { default as TermsOfService } from "./policy/TermsOfService";
+export { default as Loading } from "./loading/Loading";
+export { default as Saved } from "./saved/Saved";
+export { default as Explore } from "./explore/Explore";

@@ -1,0 +1,36 @@
+$background: #121212;
+$text: #ffffff;
+$primary: #ff6f61;
+$secondary: #1e1e2c;
+
+.authWrapper {
+  background: $background;
+  color: $text;
+
+  // p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  label {
+    color: $text;
+  }
+
+  button {
+    background-color: $primary;
+    color: $text;
+    &:hover {
+      background-color: darken($primary, 10%);
+    }
+  }
+
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+}

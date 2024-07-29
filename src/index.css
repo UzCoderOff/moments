@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#btn:hover {
+  background: transparent;
+}
+
+.policy-wrapper {
+  @apply min-h-screen bg-black text-white py-12 px-4 sm:px-6 lg:px-8;
+}
+
+.policy-container {
+  @apply max-w-3xl mx-auto bg-gray-900 p-8 rounded-lg shadow-lg;
+}
+
+.policy-title {
+  @apply text-4xl font-extrabold mb-6 text-center;
+}
+
+.policy-section {
+  @apply mb-8;
+}
+
+.policy-section h2 {
+  @apply text-2xl font-bold mb-2;
+}
+
+.policy-section p {
+  @apply mb-4;
+}
+
+
+.no-drag {
+  -webkit-user-drag: none; 
+  -khtml-user-drag: none; 
+  -moz-user-drag: none; 
+  -o-user-drag: none; 
+  user-drag: none; 
+  pointer-events: none; 
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.post-dialog-mobile {
+  z-index: 50;
+}
